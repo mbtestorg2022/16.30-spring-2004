@@ -14,48 +14,511 @@ G&VV**: Gelb, A., and W. E. Vander Velde. _Multiple-Input Describing Functions a
 
 The entire G&VV book is also downloadable [below](#Downloadable).
 
-| LEC # | TOPICS | READINGS |
-| --- | --- | --- |
-| 1 | Introduction | VdV: Chapter 7, S 1-4 |
-| 2 | Frequency Response Bode Plot Rules | VdV: Chapter 7, S 5 |
-| 3 | Frequency Response (cont.) Gain / Phase Margins | VdV: Chapter 7, S 6 |
-| 4 | Bode Plot Exercises | VdV: Chapter 7, S 7-8 |
-| 5 | Bode Plots for Unstable Open - Loop Systems | &nbsp; |
-| 6 | Root - Locus Review | VdV: Chapter 6, S 1-3 |
-| 7 | Root - Locus Examples | VdV: Chapter 6, S 4-6 |
-| 8 | Compensation Design Principles | RMS: Chapter 8, S 1-2 |
-| 9 | Compensation Design Principles (cont.) | RMS: Chapter 8, S 1-2 |
-| 10 | Proportional Control + Extra Handout | RMS: Chapter 8, S 1-2 |
-| 11 | Lag and PID Compensation | RMS: Chapter 8, S 4 |
-| 12 | Lead and PID Compensation | RMS: Chapter 8, S 5 |
-| 13 | Examples | RMS: Chapter 8, S 1-5 |
-| 14 | High Frequency Roll-off Notch and Plant Inversion | RMS: Chapter 8, S 6 |
-| 15 | Design Example Lead-Lag Compensation + Extra Handout | RMS: Chapter 8, S 7 |
-| 16 | Examples (cont.) | RMS: Chapter 8, S 7 |
-| 17 | More Examples | RMS: Chapter 8, S 8 |
-| 18 | Control of Unstable Plants | RMS: Chapter 8, S 9 |
-| 19 | Control of Unstable Plants (cont.) | RMS: Chapter 8, S 9-10 + RMS: 6.6 |
-| 20 | Quiz | &nbsp; |
-| 21 | Models of Nonlinearities | Introduction ([PDF]({{< baseurl >}}/resources/intro_nnl)) (Courtesy of D. B. DeBra. Used with permission.)  {{< br >}}  {{< br >}}Chapter 1 ([PDF]({{< baseurl >}}/resources/ch1_nnl))  {{< br >}}Chapter 2 ([PDF]({{< baseurl >}}/resources/ch2_nnl)) |
-| 22 | Common Effects of Nonlinearities | G&VV: 1.0-1.3 ([PDF - 2.3 MB]({{< baseurl >}}/resources/gelb_ch1_ocra)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 23 | Prof. David Trumper's Lecture | &nbsp; |
-| 24 | Describing Functions Introduction and Motivation | G&VV: 1.4-1.6 ([PDF - 2.3 MB]({{< baseurl >}}/resources/gelb_ch1_ocra)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 25 | Describing Function Analysis | G&VV: 3.0-3.1 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 26 | Computing DFs | G&VV: Chapter 2 ([PDF - 2.6 MB]({{< baseurl >}}/resources/gelb_ch2_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 27 | DF Analysis: Example 1, Stability of Boat Autopiloot | Notes |
-| 28 | DF Analysis: Example 1 (cont.) | Notes |
-| 29 | DF Analysis: Limit Cycling | G&VV: 3.2 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 30 | DF Analysis: Jump Resonance | G&VV: 3.3 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 31 | DF-based Compensation Design | G&VV: 3.5 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 32 | DF-based Compensation Design (cont.) | G&VV: 3.5 and 3.7 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.) |
-| 33 | Phase-Plane Analysis Introduction and Motivation | Chapter 3 ([PDF]({{< baseurl >}}/resources/ch3_nnl)) |
-| 34 | Phase Plane Drawing Rules | Chapter 3 ([PDF]({{< baseurl >}}/resources/ch3_nnl)) |
-| 35 | Phase - Plane Example I Carry-on Suitcase | &nbsp; |
-| 36 | Phase - Plane Example II Satellite System | Chapter 3 Extra ([PDF]({{< baseurl >}}/resources/ch3_nnl_extra))  {{< br >}}Chapter 4 ([PDF]({{< baseurl >}}/resources/ch4_nnl))  {{< br >}}Chapter 5 ([PDF]({{< baseurl >}}/resources/ch5_nnl)) |
-| 37 | Phase - Plane Example III Satellite System | Chapter 3 Extra ([PDF]({{< baseurl >}}/resources/ch3_nnl_extra))  {{< br >}}Chapter 4 ([PDF]({{< baseurl >}}/resources/ch4_nnl))  {{< br >}}Chapter 5 ([PDF]({{< baseurl >}}/resources/ch5_nnl)) |
-| 38 | Phase - Plane and Parameter Dependence of System Dynamics | Chapter 6 ([PDF]({{< baseurl >}}/resources/ch6_nnl)) |
-| 39 | Phase - Plane and Parameter Dependence of System Dynamics (cont.) | Chapter 6 ([PDF]({{< baseurl >}}/resources/ch6_nnl)) |
-| &nbsp; | Final Exam (3 hours) |   
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+LEC #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+READINGS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+1
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction
+{{< tdclose >}}
+{{< tdopen >}}
+VdV: Chapter 7, S 1-4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+2
+{{< tdclose >}}
+{{< tdopen >}}
+Frequency Response Bode Plot Rules
+{{< tdclose >}}
+{{< tdopen >}}
+VdV: Chapter 7, S 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+3
+{{< tdclose >}}
+{{< tdopen >}}
+Frequency Response (cont.) Gain / Phase Margins
+{{< tdclose >}}
+{{< tdopen >}}
+VdV: Chapter 7, S 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+4
+{{< tdclose >}}
+{{< tdopen >}}
+Bode Plot Exercises
+{{< tdclose >}}
+{{< tdopen >}}
+VdV: Chapter 7, S 7-8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+5
+{{< tdclose >}}
+{{< tdopen >}}
+Bode Plots for Unstable Open - Loop Systems
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+6
+{{< tdclose >}}
+{{< tdopen >}}
+Root - Locus Review
+{{< tdclose >}}
+{{< tdopen >}}
+VdV: Chapter 6, S 1-3
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+7
+{{< tdclose >}}
+{{< tdopen >}}
+Root - Locus Examples
+{{< tdclose >}}
+{{< tdopen >}}
+VdV: Chapter 6, S 4-6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+8
+{{< tdclose >}}
+{{< tdopen >}}
+Compensation Design Principles
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 1-2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+9
+{{< tdclose >}}
+{{< tdopen >}}
+Compensation Design Principles (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 1-2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+10
+{{< tdclose >}}
+{{< tdopen >}}
+Proportional Control + Extra Handout
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 1-2
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+11
+{{< tdclose >}}
+{{< tdopen >}}
+Lag and PID Compensation
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 4
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+12
+{{< tdclose >}}
+{{< tdopen >}}
+Lead and PID Compensation
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+13
+{{< tdclose >}}
+{{< tdopen >}}
+Examples
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 1-5
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+14
+{{< tdclose >}}
+{{< tdopen >}}
+High Frequency Roll-off Notch and Plant Inversion
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+15
+{{< tdclose >}}
+{{< tdopen >}}
+Design Example Lead-Lag Compensation + Extra Handout
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+16
+{{< tdclose >}}
+{{< tdopen >}}
+Examples (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 7
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+17
+{{< tdclose >}}
+{{< tdopen >}}
+More Examples
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 8
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+18
+{{< tdclose >}}
+{{< tdopen >}}
+Control of Unstable Plants
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 9
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+19
+{{< tdclose >}}
+{{< tdopen >}}
+Control of Unstable Plants (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+RMS: Chapter 8, S 9-10 + RMS: 6.6
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+20
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+21
+{{< tdclose >}}
+{{< tdopen >}}
+Models of Nonlinearities
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction ([PDF]({{< baseurl >}}/resources/intro_nnl)) (Courtesy of D. B. DeBra. Used with permission.)  
+  
+Chapter 1 ([PDF]({{< baseurl >}}/resources/ch1_nnl))  
+Chapter 2 ([PDF]({{< baseurl >}}/resources/ch2_nnl))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+22
+{{< tdclose >}}
+{{< tdopen >}}
+Common Effects of Nonlinearities
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: 1.0-1.3 ([PDF - 2.3 MB]({{< baseurl >}}/resources/gelb_ch1_ocra)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+23
+{{< tdclose >}}
+{{< tdopen >}}
+Prof. David Trumper's Lecture
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+24
+{{< tdclose >}}
+{{< tdopen >}}
+Describing Functions Introduction and Motivation
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: 1.4-1.6 ([PDF - 2.3 MB]({{< baseurl >}}/resources/gelb_ch1_ocra)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+25
+{{< tdclose >}}
+{{< tdopen >}}
+Describing Function Analysis
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: 3.0-3.1 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+26
+{{< tdclose >}}
+{{< tdopen >}}
+Computing DFs
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: Chapter 2 ([PDF - 2.6 MB]({{< baseurl >}}/resources/gelb_ch2_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+27
+{{< tdclose >}}
+{{< tdopen >}}
+DF Analysis: Example 1, Stability of Boat Autopiloot
+{{< tdclose >}}
+{{< tdopen >}}
+Notes
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+28
+{{< tdclose >}}
+{{< tdopen >}}
+DF Analysis: Example 1 (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Notes
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+29
+{{< tdclose >}}
+{{< tdopen >}}
+DF Analysis: Limit Cycling
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: 3.2 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+30
+{{< tdclose >}}
+{{< tdopen >}}
+DF Analysis: Jump Resonance
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: 3.3 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+31
+{{< tdclose >}}
+{{< tdopen >}}
+DF-based Compensation Design
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: 3.5 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+32
+{{< tdclose >}}
+{{< tdopen >}}
+DF-based Compensation Design (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+G&VV: 3.5 and 3.7 ([PDF - 4.3 MB]({{< baseurl >}}/resources/gelb_ch3_ocr)) (Courtesy of Authur Gelb and Wallace Vander Velde. Used with permission.)
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+33
+{{< tdclose >}}
+{{< tdopen >}}
+Phase-Plane Analysis Introduction and Motivation
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 3 ([PDF]({{< baseurl >}}/resources/ch3_nnl))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+34
+{{< tdclose >}}
+{{< tdopen >}}
+Phase Plane Drawing Rules
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 3 ([PDF]({{< baseurl >}}/resources/ch3_nnl))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+35
+{{< tdclose >}}
+{{< tdopen >}}
+Phase - Plane Example I Carry-on Suitcase
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+36
+{{< tdclose >}}
+{{< tdopen >}}
+Phase - Plane Example II Satellite System
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 3 Extra ([PDF]({{< baseurl >}}/resources/ch3_nnl_extra))  
+Chapter 4 ([PDF]({{< baseurl >}}/resources/ch4_nnl))  
+Chapter 5 ([PDF]({{< baseurl >}}/resources/ch5_nnl))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+37
+{{< tdclose >}}
+{{< tdopen >}}
+Phase - Plane Example III Satellite System
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 3 Extra ([PDF]({{< baseurl >}}/resources/ch3_nnl_extra))  
+Chapter 4 ([PDF]({{< baseurl >}}/resources/ch4_nnl))  
+Chapter 5 ([PDF]({{< baseurl >}}/resources/ch5_nnl))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+38
+{{< tdclose >}}
+{{< tdopen >}}
+Phase - Plane and Parameter Dependence of System Dynamics
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6 ([PDF]({{< baseurl >}}/resources/ch6_nnl))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+39
+{{< tdclose >}}
+{{< tdopen >}}
+Phase - Plane and Parameter Dependence of System Dynamics (cont.)
+{{< tdclose >}}
+{{< tdopen >}}
+Chapter 6 ([PDF]({{< baseurl >}}/resources/ch6_nnl))
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Final Exam (3 hours)
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
   
  
