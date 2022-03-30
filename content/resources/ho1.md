@@ -4,6 +4,7 @@ description: Lecture Handout 1. The instructor uses the blank spaces in these le
   handouts to work through problems and concepts during class.
 file: https://ol-ocw-studio-app-qa.s3.amazonaws.com/courses/16-30-estimation-and-control-of-aerospace-systems-spring-2004/b1d74d658935eff544d25206d30f23e6_hO1.pdf
 file_type: application/pdf
+parent_uid: 26318024-883e-fdd8-be63-f3a0369f773d
 resourcetype: Document
 title: hO1.pdf
 uid: b1d74d65-8935-eff5-44d2-5206d30f23e6
